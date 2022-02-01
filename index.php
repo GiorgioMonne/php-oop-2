@@ -4,15 +4,25 @@ require_once __DIR__ . '/classes/utente.php';
 require_once __DIR__ . '/classes/prodotto.php';
 
 
-    $shop = new Shop (
-        [
-            "nome" => "Trony",
+    $shop = [
+        new Shop (
+                "nome" => "Trony",
+                "indirizzo" => "Via_mulas",
+                "telefono" => "3479875622",
+                "website" => "Troni.it",
+                "orario" => "16-21",
+                "mail" => "trony@gmail.com"
+        )
+        ,
+        new Shop (
+            "nome" => "Unieuro",
             "indirizzo" => "Via_mulas",
-            "telefono" => "3479875622",
-            "website" => "Troni.it",
+            "telefono" => "3479875777",
+            "website" => "Unieuro.it",
             "orario" => "16-21",
-            "mail" => "trony@gmail.com"
-        ]
+            "mail" => "Unieuro@gmail.com"
+        )
+    ]
     );
 
     $prodotto = [

@@ -1,6 +1,6 @@
 <?php
 
-class Utente {
+class Utente extends Shop {
     private $nomeUtente;
     private $cognomeUtente;
     private $telefonoUtente;

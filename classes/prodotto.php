@@ -1,6 +1,6 @@
 <?php
 
-class Prodotti {
+class Prodotti extends Shop {
     public $nome;
     public $prezzo;
     public $disponibilità;
