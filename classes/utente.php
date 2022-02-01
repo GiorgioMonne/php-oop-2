@@ -1,6 +1,6 @@
 <?php
 
-class Utenti {
+class Utente {
     private $nomeUtente;
     private $cognomeUtente;
     private $telefonoUtente;
@@ -65,13 +65,13 @@ class Utenti {
         return $this->scadenzaCarta;
     }
 
-    public function insertCreditCard($_numeroCarta){
+    // public function insertCreditCard($_numeroCarta){
 
-        // $_numeroCarta >= 16
+    //     // $_numeroCarta >= 16
 
-        if($_numeroCarta != ""){
-            $this->premium = true;
-        }
-    }
+    //     if($_numeroCarta != ""){
+    //         $this->premium = true;
+    //     }
+    // }
 
 }
